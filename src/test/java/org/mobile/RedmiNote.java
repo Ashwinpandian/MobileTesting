@@ -43,8 +43,11 @@ public class RedmiNote {
 		URL url=new URL("http://127.0.0.1:4723/");
      
 		driver = new AndroidDriver(url,options);
+		System.out.println("");
         
 		service.stop();
+		
+	
 
 	}
 		
