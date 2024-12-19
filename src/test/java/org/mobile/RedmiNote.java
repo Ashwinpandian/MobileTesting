@@ -44,6 +44,7 @@ public class RedmiNote {
      
 		driver = new AndroidDriver(url,options);
 		System.out.println("");
+		System.out.println("");
         
 		service.stop();
 		
